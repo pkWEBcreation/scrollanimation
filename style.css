@@ -27,12 +27,12 @@ h1{
     margin: 10px;
     border-radius: 10px;
     background-color: blueviolet;
-    transform: translateX(300%);
+    transform: translateX(500%);
     transition: .4s;
 }
 
 .box:nth-last-of-type(even){
-    transform: translateX(-300%);
+    transform: translateX(-500%);
 }
 
 .box.show{
